@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 174 44% 51%; /* Teal */
+    --primary-foreground: 210 15% 11%; /* Dark for contrast on Teal */
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 16 100% 70%; /* Coral */
+    --accent-foreground: 210 15% 11%; /* Dark for contrast on Coral */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 174 44% 51%; /* Primary color for ring */
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+
+    /* Sidebar light theme colors (mostly defaults, adjust if light theme is actively used) */
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 174 44% 45%; /* Darker Teal for light bg */
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 16 100% 65%; /* Darker Coral for light bg */
+    --sidebar-accent-foreground: 0 0% 9%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 174 44% 51%;
+  }
+
+  .dark {
+    --background: 320 10% 12%; /* #221C20 */
+    --foreground: 0 0% 88%; /* Light Gray for text on dark bg */
+    --card: 320 10% 15%; /* Slightly lighter than background for cards */
+    --card-foreground: 0 0% 88%;
+    --popover: 320 10% 15%;
+    --popover-foreground: 0 0% 88%;
+    --primary: 174 44% 51%; /* #4DB6AC Teal */
+    --primary-foreground: 210 15% 11%; /* Dark for contrast on Teal */
+    --secondary: 320 10% 20%; /* Darker secondary */
+    --secondary-foreground: 0 0% 88%;
+    --muted: 320 10% 20%;
+    --muted-foreground: 0 0% 60%; /* Lighter muted foreground */
+    --accent: 16 100% 70%; /* #FF8A65 Coral */
+    --accent-foreground: 210 15% 11%; /* Dark for contrast on Coral */
+    --destructive: 0 70% 50%; /* Adjusted for better visibility on dark */
+    --destructive-foreground: 0 0% 98%;
+    --border: 320 10% 25%; /* Darker border */
+    --input: 320 10% 25%;
+    --ring: 174 44% 51%; /* Primary color for ring */
+    
+    --chart-1: 174 44% 51%; /* Primary (Teal components for dark theme) */
+    --chart-2: 16 100% 70%;  /* Accent (Coral components for dark theme) */
+    --chart-3: 174 30% 65%; /* Lighter Teal components */
+    --chart-4: 16 80% 75%;   /* Lighter Coral components */
+    --chart-5: 0 0% 60%;     /* Muted Foreground components (Gray) */
+
+    /* Sidebar dark theme colors */
+    --sidebar-background: 320 10% 10%; /* Even darker for sidebar */
+    --sidebar-foreground: 0 0% 80%;
+    --sidebar-primary: 174 44% 51%; /* Teal */
+    --sidebar-primary-foreground: 210 15% 11%; /* Dark for contrast */
+    --sidebar-accent: 16 100% 70%; /* Coral */
+    --sidebar-accent-foreground: 210 15% 11%; /* Dark for contrast */
+    --sidebar-border: 320 10% 20%;
+    --sidebar-ring: 174 44% 51%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
