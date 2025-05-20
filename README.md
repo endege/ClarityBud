@@ -1,5 +1,5 @@
-[![Firebase Studio](https://img.shields.io/badge/Cloud-☁️-blue)](https://cloud.browser-use.com)
-> **Note:** This application was built entirely using [![Firebase Studio](https://github.com/user-attachments/assets/db74fe74-c2f9-4a3e-b7e6-bc5399a49748) **Firebase Studio** – no manual coding was involved.
+
+> **Note:** This application was built entirely using ![Firebase Studio](https://github.com/user-attachments/assets/db74fe74-c2f9-4a3e-b7e6-bc5399a49748) **Firebase Studio** – no manual coding was involved.
 
 # ClarityBud - Personal Finance & Budgeting App
 
