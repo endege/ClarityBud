@@ -111,6 +111,3 @@ And to run the production build:
 ```bash
 npm run start
 ```
-Ensure any necessary production environment variables are set in your deployment environment.
-
-```
