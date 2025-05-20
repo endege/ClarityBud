@@ -64,20 +64,12 @@ Follow these steps to get ClarityBud running on your local machine.
 
 If you have the project as a Git repository:
 ```bash
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/endege/ClarityBud.git)
 cd claritybud # Or your project directory name
 ```
 If you downloaded the project files, navigate to the project's root directory.
 
-### 2. Create Environment File
-
-The application does not strictly require an environment file for core functionality after removing AI features. However, you can create a `.env` file if you plan to add environment-specific configurations later.
-```bash
-touch .env
-```
-You can leave this file empty or add other non-sensitive configurations if needed.
-
-### 3. Install Dependencies
+### 2. Install Dependencies
 
 Install the project dependencies using npm or yarn:
 ```bash
@@ -88,7 +80,7 @@ or
 yarn install
 ```
 
-### 4. Run the Development Server
+### 3. Run the Development Server
 
 ```bash
 npm run dev
@@ -99,7 +91,7 @@ yarn dev
 ```
 This will start the Next.js development server, usually on `http://localhost:9002` (as configured in `package.json`).
 
-### 5. Access the Application
+### 4. Access the Application
 
 Open your browser and navigate to `http://localhost:9002` (or the port shown in your terminal for the Next.js app).
 
