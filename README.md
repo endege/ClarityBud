@@ -5,6 +5,8 @@
 
 ClarityBud is a modern, full-stack web application designed to help you manage your personal finances with clarity. Track your income and expenses, set budgets, and visualize your spending patterns.
 
+![Dashboard](https://github.com/endege/ClarityBud/blob/master/dashboard.jpg?raw=true)
+
 ## Features
 
 *   **Dashboard Overview**: Get a quick snapshot of your total income, expenses, and net balance for the current month.
